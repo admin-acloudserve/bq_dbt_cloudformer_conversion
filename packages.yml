@@ -1,0 +1,10 @@
+packages:
+- package: fivetran/fivetran_utils
+  version: [">=0.4.0", "<0.5.0"]
+
+- package: fivetran/fivetran_log
+  version: 0.7.0
+
+
+# gotta run dbt deps first before running dbt run
+# bq rm -r -f -d sample1-328718:
